@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- title of the website that specifically defines what it is, making it easier to search -->
+    <title>Thien-Van To Portfolio</title>
+    <link 
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- linking to my stylesheet style.css -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <!-- Content of the website -->
+  <body>
+    <!-- Header of the website -->
+    <header>
+      <!-- Using a div here to have my h1 and h2 in one div so I can manipulate them together, making it easier to format-->
+      <div>
+        <!-- H1 Titel of the website is my full name again to make it easier to google me -->
+        <h1>
+          Thien-Van To
+        </h1>
+        <!-- H2 title of the website is what I do so first priority is that people who search for my exact name find my website and if they search for my name combined with Software Developer they'll find me even easier -->
+        <h2>
+          Software Developer
+        </h2>
+      </div>
+    </header>
+
+    <!-- Main content of my website -->
+    <main>
+      <!-- Using a div here to be able to center the picture -->
+      <div style="text-align: center" >
+        <!-- sourcing the picture out of my images folder and setting its width to 300px. The fallback is the text "Portrait of Thien-Van" to make it as descriptive as possible with the least amount of words also to boosten my searchability -->
+        <img src="images/me.jpg" width= "300px" alt="Portrait of Thien-Van">
+      </div>
+      <!-- Using a div here to have a standardized layout between all divs under the main content and group this block of text-->
+      <div>
+        <h3>
+          Hi, I'm Thien-Van To
+        </h3>
+        <p>I am a software developer living in Berlin, Germany</p>
+        <p>As a graduated game designer, I'm interested in:</p>
+        <!-- Using an unordered list here to show my interests -->
+        <ul>
+          <li>All kind of games from pen and paper to board games to video games.</li>
+          <li>Music that slaps.</li>
+          <li>Crypto currency that makes me rich.</li>
+        </ul>
+        <!-- inserting an anchor link here so it takes you to the div with the contact id once clicked -->
+        <p>Please take a look at my website and feel free to <a href="#contact">contact me</a>.</p>
+      </div>
+
+      <!-- inserting a horizontal ruler here to visually seperate textblocks -->
+      <hr>
+
+      <!-- Using a div here to have a standardized layout between all divs under the main content and group this block of text-->
+      <div>
+        <h3>
+          About Thien-Van
+        </h3>
+        <p>After graduating from college, I decided to gain experience in marketing. Since I already learned how to design games, I wanted to be able to sell them. Along the way I realized that utilizing my skills as a game designer I can make a great impact on developing apps and websites</p>
+        <!-- Embedding the link straight into the text here so it doesn't disrupt the reading flow. -->
+        <p>That led me to become a student at <a href="https://www.thinkful.com/">Thinkful</a>, mastering REACT to be an absolute frontend BEAST!</p>
+        <p>If you're looking to hire a new developer (or are looking for a hackathon partner) please reach out! I am excited to work with other developers to build awesome software.</p>
+      </div>
+
+      <!-- inserting a horizontal ruler here to visually seperate textblocks -->
+      <hr>
+
+      <!-- Using a div here to have a standardized layout between all divs under the main content and group this block of text. Also assigning the id "contact" to this div so I can anchor link it in my first text block-->
+      <div id="contact">
+        <h3>
+          Contact Thien-Van
+        </h3>
+        <p>I'd love to hear from you! Please feel free to contact or follow me:</p>
+        <!-- Using an ordered list with numbers here to underline that there are 2 possibilities to contact me. (I opted to not put in my email for privacy reasons) -->
+        <ol>
+          <li><a href="https://github.com/Thien-Van">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/thien-van-to-37674982/">LinkedIn</a></li>
+        </ol>
+      </div>
+    </main>
+
+    <!-- The footer of the website -->
+    <footer>
+      <!-- I dont have to use a div here but I wanted to keep it so if I would add some more text etc. later on, it would be easier to manipulate and I also find it gives me more clarity and order in the code -->
+      <div>
+        <p>@Thien-Van To</p>
+      </div>
+    </footer>
+
+  </body>
+
+  
+</html>

@@ -1,0 +1,76 @@
+/* I struggled a bit with the order of css styles here but I opted for an hirarchical order. It goes *, body, header, footer, divs, hr etc. then all the groups, then h1 to h3 and so on and at the end all the classes */
+
+/* following the advice on the last part of deeper with CSS to better control the sizes*/
+*{
+  box-sizing: border-box;
+}
+
+/* I opted to set the backgroud color for the whole body and not ony the main element so that I have more options further on */
+body {
+  background: lightgrey;
+}
+
+/* setting the background color and text color for the header while also putting in margin and padding to elevate the text*/
+header {
+  background: black;
+  color: white;
+  margin-bottom: 30px;
+  padding: 30px 100px;
+}
+
+/* styling the footer and adding padding to top and bottom to make it clear that this is the end of the page*/
+footer {
+  background: darkgray;
+  color: white;
+  padding: 10px;
+}
+
+/* setting a standardized margin for all divs for readability */
+div{
+  margin: 50px 100px;
+}
+
+/* styling the length and margins of the horizontal rulers */
+hr {
+  margin: 30px 130px; 
+}
+
+/* setting the main font family */
+p, a, li{
+  font-family: Helvetica, Roboto, sans-serif;
+}
+
+/* setting the header font family and alignment */
+h1, h2, h3, footer {
+  text-align: center;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+/* overwriting the h1 font family to make it stand out and adjusting its size */
+h1 {
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* adjusting the h2 size */
+h2 {
+  font-size: 20px;
+}
+
+/* adjusting the h3 size and put a margin in at the bottom to make it look better*/
+h3 {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+/* styling the links for better feedback*/
+a:link    {color: darkcyan}
+a:visited {color: rgb(107, 107, 107)}
+a:hover   {color: cadetblue}
+a:active  {color: cyan}
+
+
+
+
+
+
