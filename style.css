@@ -33,6 +33,7 @@ div{
 /* styling the length and margins of the horizontal rulers */
 hr {
   margin: 30px 130px; 
+  height: 5px;
 }
 
 /* setting the main font family */
